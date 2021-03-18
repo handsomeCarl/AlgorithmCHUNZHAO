@@ -1,0 +1,30 @@
+{
+  "name": "AlgorithmCHUNZHAO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handsomeCarl/AlgorithmCHUNZHAO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/handsomeCarl/AlgorithmCHUNZHAO/issues"
+  },
+  "homepage": "https://github.com/handsomeCarl/AlgorithmCHUNZHAO#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
