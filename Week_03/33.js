@@ -1,7 +1,9 @@
 /**
  * @param {number[]} nums
  * @param {number} target
- * @return {number}
+//  * @return {number}
+
+
  */
 var search = function(nums, target) {
   var low = 0;
