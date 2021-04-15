@@ -32,6 +32,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "lint-staged": {
+    "*.{js,jsx}": ["eslint --fix", "git add"]
+  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
